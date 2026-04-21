@@ -1,7 +1,8 @@
-```md
+# DEVOPS_ASSIGNMENT
+
 ## Assignment-1:
 
-```text
+```
 Task 1: End-to-End Docker and Kubernetes Deployment
 
 In this task, you need to take a simple web application (Node.js or Python Flask) 
@@ -26,6 +27,7 @@ Your implementation must include:
 - Kubernetes Service YAML
 - Scaling replicas from 1 to 3
 - Performing a rolling update by changing image version (v1 → v2)
+```
 
 You should also provide a short explanation covering:
 
