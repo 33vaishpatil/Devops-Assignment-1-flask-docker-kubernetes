@@ -37,27 +37,28 @@ You should also provide a short explanation covering:
 ```
 ### Solution
 
-For Task 1, a complete end-to-end deployment of a Python Flask web application was successfully implemented using Docker and Kubernetes.
+Successfully completed Task 1 by implementing an end-to-end deployment process for a Flask application using Docker and Kubernetes.
 
-A Flask application was created and tested locally on port **5000**. After successful execution, the application was containerized using Docker by creating a proper `Dockerfile` and `.dockerignore` file using a lightweight base image.
+The application was first tested locally through `http://127.0.0.1:5000/`, then containerized using Docker and pushed to Docker Hub. The same image was deployed in a Kubernetes cluster using Minikube.
 
-The Docker image was built locally, tested through a running container, and then pushed to Docker Hub for registry access.
-
-Using Minikube, a local Kubernetes cluster was created. The same Docker image was deployed into Kubernetes using Deployment and Service YAML files.
-
-The application was successfully accessed through Kubernetes, replicas were scaled from **1 to 3**, and a rolling update was performed by changing the image version from **v1 to v2**.
-
-All required objectives of Task 1 were successfully completed.
-
----
+High availability was achieved through replica scaling, and application updates were managed using rolling deployment strategy from `v1` to `v2`.
 
 ### Steps
 
-#### 1. Application Development
-
-- Created a Python Flask web application.
-- Configured application to run on port **5000**.
-- Verified locally using:
-
-```text
-http://127.0.0.1:5000/
+- Created Flask application.  
+- Tested application locally.  
+- Created `requirements.txt`.  
+- Created `Dockerfile` and `.dockerignore`.  
+- Built Docker image.  
+- Ran Docker container.  
+- Verified app in browser.  
+- Pushed image to Docker Hub.  
+- Installed `kubectl` and Minikube.  
+- Started Kubernetes cluster.  
+- Created Deployment YAML.  
+- Created Service YAML.  
+- Deployed app to Kubernetes.  
+- Verified pods and services.  
+- Accessed app through Minikube service.  
+- Scaled replicas from 1 to 3.  
+- Performed rolling update (`v1` to `v2`).  
