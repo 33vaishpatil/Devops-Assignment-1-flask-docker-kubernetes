@@ -64,3 +64,11 @@ High availability was achieved through replica scaling, and application updates 
 - Performed rolling update (`v1` to `v2`).
 
  ###  Screenshots are attached.
+
+ <p align="center">
+  <img src="./Assignment-1/Image1.png" width="700"><br><br>
+  <img src="./Assignment-1/Image2.png" width="700"><br><br>
+  <img src="./Assignment-1/Image3.png" width="700"><br><br>
+  <img src="./Assignment-1/Image4.png" width="700"><br><br>
+</p>
+
