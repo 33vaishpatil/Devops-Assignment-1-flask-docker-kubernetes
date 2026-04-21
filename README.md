@@ -27,7 +27,6 @@ Your implementation must include:
 - Kubernetes Service YAML
 - Scaling replicas from 1 to 3
 - Performing a rolling update by changing image version (v1 → v2)
-```
 
 You should also provide a short explanation covering:
 
@@ -35,3 +34,5 @@ You should also provide a short explanation covering:
 - Difference between Pod and Deployment
 - Purpose of a Service in Kubernetes
 - How rolling updates work
+```
+### Solution
