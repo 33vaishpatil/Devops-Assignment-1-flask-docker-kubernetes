@@ -61,4 +61,6 @@ High availability was achieved through replica scaling, and application updates 
 - Verified pods and services.  
 - Accessed app through Minikube service.  
 - Scaled replicas from 1 to 3.  
-- Performed rolling update (`v1` to `v2`).  
+- Performed rolling update (`v1` to `v2`).
+
+ ###  Screenshots are attached.
