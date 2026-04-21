@@ -39,7 +39,7 @@ You should also provide a short explanation covering:
 
 Successfully completed Task 1 by implementing an end-to-end deployment process for a Flask application using Docker and Kubernetes.
 
-The application was first tested locally through `http://127.0.0.1:5000/`, then containerized using Docker and pushed to Docker Hub. The same image was deployed in a Kubernetes cluster using Minikube.
+The application was first tested locally through [`http://127.0.0.1:5000/`](http://localhost:5000/), then containerized using Docker and pushed to Docker Hub. The same image was deployed in a Kubernetes cluster using Minikube.
 
 High availability was achieved through replica scaling, and application updates were managed using rolling deployment strategy from `v1` to `v2`.
 
