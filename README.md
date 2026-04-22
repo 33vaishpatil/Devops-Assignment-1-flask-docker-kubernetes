@@ -118,7 +118,7 @@ A new Git repository was initialized and multiple branches were created to simul
 
 ## Commands Used
 
-```bash
+bash
 git init
 git branch -M main
 git checkout -b dev
