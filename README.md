@@ -135,6 +135,6 @@ git log --oneline --graph --all
  ###  Screenshots are attached.
 
 <p align="center">
-  <img src="./Image11.png" width="700"><br><br>
-  <img src="./Image12.png" width="700"><br><br>
+  <img src="./scr/Image11.png" width="700"><br><br>
+  <img src="./scr/Image12.png" width="700"><br><br>
 </p>
