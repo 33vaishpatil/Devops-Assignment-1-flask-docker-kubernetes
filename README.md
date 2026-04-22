@@ -118,7 +118,7 @@ A new Git repository was initialized and multiple branches were created to simul
 
 ## Commands Used
 
-bash
+```bash
 1.git init
 2.git branch -M main
 3.git checkout -b dev
@@ -131,6 +131,7 @@ bash
 10.git push origin --all
 11.git push origin v1.0
 12.git log --oneline --graph --all
+```
 
  ###  Screenshots are attached.
 
