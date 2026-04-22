@@ -77,5 +77,18 @@ High availability was achieved through replica scaling, and application updates 
 ```
 Task 2: Git Workflow and Branching
 Understanding
+This task focuses on strengthening your Git fundamentals and understanding real-world branching strategy
+used in DevOps environments.
+Create a new Git repository and initialise it properly. Work with multiple branches to simulate a real
+development workflow.
+You are expected to:
+●​ Create main branch​
+●​ Create dev branch from main​
+●​ Create a feature branch from dev​
+●​ Make meaningful code changes and commit properly​
+●​ Merge feature branch into dev​
+●​ Intentionally create and resolve a merge conflict​
+●​ Tag the final version as v1.0​
+●​ Show git log graph view​
 
 ```
