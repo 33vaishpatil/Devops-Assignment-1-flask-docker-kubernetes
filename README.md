@@ -92,4 +92,42 @@ You are expected to:
 ●​ Show git log graph view​
 
 ```
-### Solution
+## Solution
+
+Successfully completed Task 2 by implementing a complete Git workflow and branching strategy commonly used in DevOps environments.
+
+A new Git repository was initialized and multiple branches were created to simulate a real development lifecycle. Branches such as `main`, `dev`, and `feature` were managed properly. Meaningful code changes were committed, feature branch changes were merged into dev branch, merge conflicts were created and resolved successfully, final version was tagged as `v1.0`, and repository history was verified using Git log graph view.
+
+---
+
+## Steps
+
+- Created a new Git repository and initialized it.  
+- Created `main` branch.  
+- Created `dev` branch from `main`.  
+- Created `feature/my-feature` branch from `dev`.  
+- Made code changes and committed with proper commit messages.  
+- Merged feature branch into `dev`.  
+- Intentionally created merge conflict between branches.  
+- Resolved merge conflict successfully.  
+- Tagged final version as `v1.0`.  
+- Pushed branches and tag to remote repository.  
+- Verified branch history using Git log graph view.  
+
+---
+
+## Commands Used
+
+```bash
+git init
+git branch -M main
+git checkout -b dev
+git checkout -b feature/my-feature
+git add .
+git commit -m "Added feature changes"
+git checkout dev
+git merge feature/my-feature
+git tag -a v1.0 -m "Final version"
+git push origin --all
+git push origin v1.0
+git log --oneline --graph --all
