@@ -70,5 +70,71 @@ High availability was achieved through replica scaling, and application updates 
   <img src="./Assignment-1/Image2.png" width="700"><br><br>
   <img src="./Assignment-1/Image3.png" width="700"><br><br>
   <img src="./Assignment-1/Image4.png" width="700"><br><br>
+  <img src="./Assignment-1/Image6.png" width="700"><br><br>
+  <img src="./Assignment-1/Image5.png" width="700"><br><br>
 </p>
 
+```
+Task 2: Git Workflow and Branching
+Understanding
+This task focuses on strengthening your Git fundamentals and understanding real-world branching strategy
+used in DevOps environments.
+Create a new Git repository and initialise it properly. Work with multiple branches to simulate a real
+development workflow.
+You are expected to:
+●​ Create main branch​
+●​ Create dev branch from main​
+●​ Create a feature branch from dev​
+●​ Make meaningful code changes and commit properly​
+●​ Merge feature branch into dev​
+●​ Intentionally create and resolve a merge conflict​
+●​ Tag the final version as v1.0​
+●​ Show git log graph view​
+
+```
+## Solution
+
+Successfully completed Task 2 by implementing a complete Git workflow and branching strategy commonly used in DevOps environments.
+
+A new Git repository was initialized and multiple branches were created to simulate a real development lifecycle. Branches such as `main`, `dev`, and `feature` were managed properly. Meaningful code changes were committed, feature branch changes were merged into dev branch, merge conflicts were created and resolved successfully, final version was tagged as `v1.0`, and repository history was verified using Git log graph view.
+
+---
+
+## Steps
+
+- Created a new Git repository and initialized it.  
+- Created `main` branch.  
+- Created `dev` branch from `main`.  
+- Created `feature/my-feature` branch from `dev`.  
+- Made code changes and committed with proper commit messages.  
+- Merged feature branch into `dev`.  
+- Intentionally created merge conflict between branches.  
+- Resolved merge conflict successfully.  
+- Tagged final version as `v1.0`.  
+- Pushed branches and tag to remote repository.  
+- Verified branch history using Git log graph view.  
+
+---
+
+## Commands Used
+
+bash
+git init
+git branch -M main
+git checkout -b dev
+git checkout -b feature/my-feature
+git add .
+git commit -m "Added feature changes"
+git checkout dev
+git merge feature/my-feature
+git tag -a v1.0 -m "Final version"
+git push origin --all
+git push origin v1.0
+git log --oneline --graph --all
+
+ ###  Screenshots are attached.
+
+<p align="center">
+  <img src="./scr/Image11.png" width="700"><br><br>
+  <img src="./scr/Image12.png" width="700"><br><br>
+</p>
