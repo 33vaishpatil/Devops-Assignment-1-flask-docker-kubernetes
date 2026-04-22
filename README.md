@@ -92,3 +92,4 @@ You are expected to:
 ●​ Show git log graph view​
 
 ```
+### Solution
