@@ -70,7 +70,7 @@ High availability was achieved through replica scaling, and application updates 
   <img src="./Assignment-1/Image2.png" width="700"><br><br>
   <img src="./Assignment-1/Image3.png" width="700"><br><br>
   <img src="./Assignment-1/Image4.png" width="700"><br><br>
-  <img src="./Assignment-1/Image5.png" width="700"><br><br>
   <img src="./Assignment-1/Image6.png" width="700"><br><br>
+  <img src="./Assignment-1/Image5.png" width="700"><br><br>
 </p>
 
