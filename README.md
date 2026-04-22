@@ -74,3 +74,8 @@ High availability was achieved through replica scaling, and application updates 
   <img src="./Assignment-1/Image5.png" width="700"><br><br>
 </p>
 
+```
+Task 2: Git Workflow and Branching
+Understanding
+
+```
