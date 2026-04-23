@@ -118,23 +118,24 @@ A new Git repository was initialized and multiple branches were created to simul
 
 ## Commands Used
 
-bash
-git init
-git branch -M main
-git checkout -b dev
-git checkout -b feature/my-feature
-git add .
-git commit -m "Added feature changes"
-git checkout dev
-git merge feature/my-feature
-git tag -a v1.0 -m "Final version"
-git push origin --all
-git push origin v1.0
-git log --oneline --graph --all
+```bash
+1.git init
+2.git branch -M main
+3.git checkout -b dev
+4.git checkout -b feature/my-feature
+5.git add .
+6.git commit -m "Added feature changes"
+7.git checkout dev
+8.git merge feature/my-feature
+9.git tag -a v1.0 -m "Final version"
+10.git push origin --all
+11.git push origin v1.0
+12.git log --oneline --graph --all
+```
 
  ###  Screenshots are attached.
 
 <p align="center">
-  <img src="./scr/Image11.png" width="700"><br><br>
-  <img src="./scr/Image12.png" width="700"><br><br>
+  <img src="./Assignment-1/Image11.png" width="700"><br><br>
+  <img src="./Assignment-1/Image12.png" width="700"><br><br>
 </p>
